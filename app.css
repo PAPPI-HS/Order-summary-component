@@ -1,0 +1,130 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: hsl(225, 100%, 94%) ;
+	font-family: 'Red Hat Display', sans-serif;
+	flex-wrap: wrap;
+
+}
+
+/*.panel{
+	width: 100%;
+	max-width: 350px;
+	height: 600px;
+}*/
+
+.panel{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	max-width:320px ;
+	height: 570px;
+	border-radius: 15px ;
+	box-shadow: 0 10px 15px -8px hsl(225, 100%, 94%);
+	margin: 0 auto;
+
+}
+
+img{
+	border-radius: 15px 15px 0 0;
+}
+
+.pricing-header{
+	color: hsl(223, 47%, 23%);
+	margin-top: 35px;
+	font-weight: 900;
+}
+
+.features{
+	color: hsl(224, 23%, 55%);
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 8px;	
+}
+
+.pricing-price{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+    width: 260px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+	background-color: hsl(225, 100%, 98%);
+}
+
+.pricing-price img{
+	margin-right: 0;
+	width: 45px;
+	height: 45px;
+}
+
+.pricing-price h3 {
+	color: hsl(223, 47%, 23%);
+	font-size: 13px;
+	font-weight: 800;
+	margin-bottom: 3px;
+}
+
+.pricing-price p {
+	margin-top: 0;
+	font-size: 10px;
+	font-weight: 700;
+	color: hsl(224, 23%, 55%);
+	letter-spacing: 1px;
+}
+
+ .annual-price{
+	margin-right: 40px;
+}
+
+.pricing-price a {
+	color: hsl(245, 75%, 52%);
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: 700;
+
+}
+
+.pricing-button{
+	padding-top: 10px;
+	text-decoration: none;
+	margin: 0 auto;
+	border-radius: 10px;
+	width: 260px;
+	height: 35px;
+	background-color: hsl(245, 75%, 52%) ;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.cancel{
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+	font-weight: bolder;
+	font-size: 13px;
+}
+
+.pricing-button:active{
+	background-color: #7369E9;
+}
+
+.cancel:active{
+	color: hsl(223, 47%, 23%);
+
+}
+
+.pricing-price a:active {
+	text-decoration: none;
+	color:#7369E9 ;
+}
+
+
